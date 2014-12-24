@@ -11,10 +11,15 @@ Requirement
 
 Configration
 ------------
-Setup it just like a usual django project, just make sure you enter right location for database and configure django alluth correctly.For more dtails refer to docs [here](http://django-allauth.readthedocs.org/en/latest/).For setting up instagram account plese (I will share a detailed post on that in few daysi, for now) refer to documentation [her](http://instagram.com/developer/authentication/).
+Setup it just like a usual django project, just make sure you enter right location for database and configure django alluth correctly.For more dtails refer to docs [here](http://django-allauth.readthedocs.org/en/latest/).For setting up instagram account (I will share a detailed post on that in few daysi, for now) please refer to documentation [here](http://instagram.com/developer/authentication/).
 Some Important details
 ----------------------
-In this project we first ask user for authentication and then ask user to fill the latitude and longitude and then get Geotagged Pictures from instagram api.
+In this project we first ask user for authentication and then ask user to fill the latitude and longitude and then get Geotagged Pictures from instagram api, which we then display to the user.
+
+test
+-----
+After the successfull configration. start you local server 
+* *http://localhost:8000/*
 
 Todo
 ----
