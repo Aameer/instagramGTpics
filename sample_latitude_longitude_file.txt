@@ -1,0 +1,80 @@
+//taj mahal
+
+27.1750
+78.0419
+300
+//eiffel tower
+
+2.2945
+48.8582
+300
+//statue of liberty
+
+40.6892
+74.0444
+500
+//Sultan Ahmed Mosque 
+
+41.0055
+28.9774
+500
+
+//suleiman mosque turkey
+
+28.9639
+41.0161
+1000
+
+//kaba
+
+21.4225
+39.8262
+300
+
+//egyptian pyramids
+
+29.9761
+31.1311
+1000
+
+//great wall of china
+
+40.6769
+117.2319
+1000
+
+// Angkor Thom
+
+13.4125
+103.8667
+1000
+
+//National Chiang Kai-shek Memorial Hall
+
+25.0344
+121.5217
+300
+
+//Potala Palace
+
+29.6578
+91.1169
+300
+
+//red fort
+
+77.2416
+28.6557
+500
+
+//cmu
+
+40.4433
+79.9436
+500
+
+//mit
+
+42.3598
+71.0921
+500
