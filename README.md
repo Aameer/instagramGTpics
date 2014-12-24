@@ -33,6 +33,11 @@ screen shots make make the working crystal clear
 ![some more pic](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/7.png)
 ![on signout](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/8.png)
 
+
+For fun
+-------
+I have added some sample lattiudes and longitudes of places in the sample_latitude_longitude_file.txt file, you can use them to check some awesome places around the world. Note that we get all the pictures on the fly.
+
 Todo
 ----
 use google maps api to get latitude and longitude of a place.
