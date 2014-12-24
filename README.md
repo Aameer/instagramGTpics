@@ -21,6 +21,18 @@ test
 After the successfull configration. start you local server 
 * *http://localhost:8000/*
 
+Sample Screen shots
+-------------------
+screen shots make make the working crystal clear
+![landing page](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/1.png)
+![instagram login page](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/2.png)
+![login window from instagram](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/3.png)
+![redirect url](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/4.png)
+![puttin values into form](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/5.png)
+![after submit showing pics](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/6.png)
+![some more pic](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/7.png)
+![on signout](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/8.png)
+
 Todo
 ----
 use google maps api to get latitude and longitude of a place.
