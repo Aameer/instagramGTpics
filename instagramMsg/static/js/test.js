@@ -1,5 +1,5 @@
 $( document ).ready(function(){
-    
+    //on clear click remove all pics    
     $('.clear').click(function(){
 	var myNode = document.getElementById("image_container");
 	myNode.innerHTML = '';
