@@ -1,0 +1,33 @@
+{% block content %}
+
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="{{STATIC_URL}}/js/test.js"></script>
+	{% if not user.is_authenticated %}
+	    <h1 style="margin-left:15%;margin-top:22%;">To use this application, you need to login (Instagram only)
+		</br>
+		<small>
+		   <a href="/accounts/login" style="margin-left:27%;">please click here to login</a>
+	    	</small>
+	    </h1>
+	{% else %}
+		hello {{ user.get_username }}
+	    	<a href="/accounts/logout">logout</a>
+		<form class="get_pic_form">
+  		    Enter Latitude(E): <input type="text" name="longitude"><br>
+		    Enter Longitude(N): <input  type="text" name="latitude"><br>
+		    Enter Distance(less than 5000): <input  type="text" name="distance"><br>
+		    <input class="submit_form" type="button" value="Submit form">
+		</form>
+	{% endif %}
+<button class="clear" style="display:none;">clear pictures</button>
+<div id="image_container"></div>
+{% endblock content %}
