@@ -19,13 +19,17 @@
 			<a href="/accounts/logout"> logout</a>
 		</div>
 		<div class="alert alert-info" role="alert" style="margin-left: 15px;margin-right: 15px;margin-top: 5px;">To Check out the Geotagged pictures of a place, Enter latitude and longitude of that place. Optionally you can also mention the distance of search too(not greater than 5000).</div>	
-		<form class="get_pic_form navbar-form " role="search">
-  		    <input class="form-control" type="text" placeholder="Latitude (E)" name="latitude" style="margin-top:1%;"><br>
-		    <input class="form-control" type="text" placeholder="Longitude (N)" name="longitude" style="margin-top:1%;"><br>
-		    <input class="form-control" type="text" placeholder="Distance (<5000):" name="distance" style="margin-top:1%;"><br>
+		<form class="get_pic_form navbar-form " role="search" style="display:none;">
+  		    <input class="form-control lat_field" type="text" placeholder="Latitude (E)" name="latitude" style="margin-top:1%;"><br>
+		    <input class="form-control lng_field" type="text" placeholder="Longitude (N)" name="longitude" style="margin-top:1%;"><br>
+		    <input class="form-control dist_field" type="text" placeholder="Distance (<5000):" name="distance" style="margin-top:1%;"><br>
 		    <input class="btn btn-default submit_form" type="button" value="Submit form" style="margin-left:3%;margin-top:1%;">
 		</form>
 		<br/>
+		<form class="get_location_form navbar-form " role="search">
+  		    <input class="form-control" type="text" placeholder="Adress" name="address" style="margin-top:1%;"><br>
+		    <input class="btn btn-default submit_form_loc" type="button" value="Submit form" style="margin-left:3%;margin-top:1%;">
+		</form>
 		
 	<button style="margin-left:4%;margin-bottom:1%;" class="clear btn" style="display:none;">clear pictures</button>
 	<style>

@@ -5,6 +5,31 @@ $( document ).ready(function(){
 	myNode.innerHTML = '';
     });
 
+    $('.submit_form_loc').click(function(){
+	get_lng_and_latitude = function(){
+    	    ajaxGetLoc = {
+    	        url: "https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyDiZx6dDwwmQ0FaV0tRe2FjWcSoAqO9f1Y",
+    	        dataType: 'json',
+    	        data: address_data,
+    	        success: function(resp){
+    	    	for (i=0;i<resp.results.length;i++){
+    	    	    console.log("location no:");console.log(i);
+    	    	    console.log(resp.results[i]['formatted_address']);
+    	    	    console.log(resp.results[i]['geometry']['location']);
+    	    	};
+		$('.lat_field').val(resp.results[0]['geometry']['location']['lat']);
+		$('.lng_field').val(resp.results[0]['geometry']['location']['lng']);
+		$('.submit_form').trigger('click');
+		
+    	        },
+    	    };
+    	    $.ajax(ajaxGetLoc);
+    	};
+
+        address_data=$('.get_location_form').serialize();
+	get_lng_and_latitude();
+    });
+
     $('.submit_form').click(function(){
 	$('.clear').trigger('click');
         data_vals=$('.get_pic_form').serialize();
