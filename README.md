@@ -37,7 +37,7 @@ screen shots make make the working crystal clear
 
 For fun
 -------
-I have added some sample lattiudes and longitudes of places in the sample_latitude_longitude_file.txt file, you can use them to check some awesome places around the world. Note that we get all the pictures on the fly.
+Type in names of the places you always wanted to visit and see some awesome pics.
 
 Todo
 ----
