@@ -11,10 +11,11 @@ Requirement
 
 Configration
 ------------
-Setup it just like a usual django project, just make sure you enter right location for database and configure django alluth correctly.For more dtails refer to docs [here](http://django-allauth.readthedocs.org/en/latest/).For setting up instagram account (I will share a detailed post on that in few daysi, for now) please refer to documentation [here](http://instagram.com/developer/authentication/).
+Setup it just like a usual django project, just make sure you enter right location for database and configure django alluth correctly.For more dtails refer to docs [here](http://django-allauth.readthedocs.org/en/latest/).For setting up instagram api and google maps api  (I will share a detailed post on that in few days, for now) please refer to documentation for instagram [here](http://instagram.com/developer/authentication/), and for google maps api[here](https://developers.google.com/maps/documentation/geocoding/index)
+
 Some Important details
 ----------------------
-In this project we first ask user for authentication and then ask user to fill the latitude and longitude and then get Geotagged Pictures from instagram api, which we then display to the user.
+In this project we first ask user for authentication and then ask user to fill the name and address of the location and then get Geotagged Pictures from instagram api, which we then display to the user.We can get many posible locations from google maps api for a particular address but we are using first one for now.
 
 test
 -----
@@ -40,5 +41,5 @@ I have added some sample lattiudes and longitudes of places in the sample_latitu
 
 Todo
 ----
-use google maps api to get latitude and longitude of a place.
+To optimise results and to open distance around which users can locate the pictures
 
