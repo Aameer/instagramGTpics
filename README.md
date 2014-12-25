@@ -1,4 +1,4 @@
-amazon_deals_api
+Instagram Geotagged Pictures
 ================
 
 The project is a working model of an Web app which gets GeoTagged Images from Instagram Api
