@@ -59,6 +59,8 @@ def get_location(request):
 	temp_location_id=temp_dict['id']
 	#making another call
 	url_to_hit="https://api.instagram.com/v1/locations/"+temp_location_id+"/media/recent?"+body
+	print "second url"
+	print url_to_hit
     	h2 = httplib2.Http()
     	resp2, content2 = h2.request(url_to_hit)
     	content2 = content2.replace('null','None')
