@@ -30,7 +30,6 @@ screen shots make make the working crystal clear
 ![login window from instagram](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/3.png)
 ![redirect url](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/4.png)
 ![puttin values into form](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/5.png)
-![after submit showing pics](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/6.png)
 ![some more pic](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/7.png)
 ![on signout](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/8.png)
 
