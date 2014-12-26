@@ -15,7 +15,7 @@ Setup it just like a usual django project, just make sure you enter right locati
 
 Some Important details
 ----------------------
-In this project we first ask user for authentication and then ask user to fill the name and address of the location and then get Geotagged Pictures from instagram api, which we then display to the user.We can get many posible locations from google maps api for a particular address but we are using first one for now.
+In this project we first ask user for authentication and then ask user to fill the name and address of the location and then get Geotagged Pictures from instagram api, which we then display to the user.We can get many posible locations from google maps api for a particular address but we are using first one for now.Moreover we can use instagrams locations or media end point to get different results (just for comparison)
 
 test
 -----
@@ -30,6 +30,7 @@ screen shots make make the working crystal clear
 ![login window from instagram](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/3.png)
 ![redirect url](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/4.png)
 ![puttin values into form](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/5.png)
+![alternatively](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/5.png)
 ![some more pic](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/7.png)
 ![on signout](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/8.png)
 
