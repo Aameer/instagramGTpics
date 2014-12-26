@@ -24,7 +24,7 @@ After the successfull configration. start you local server
 
 Sample Screen shots
 -------------------
-screen shots make make the working crystal clear
+Screen shots make make the working crystal clear
 ![landing page](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/1.png)
 ![instagram login page](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/2.png)
 ![login window from instagram](https://raw.githubusercontent.com/Aameer/instagramGTpics/master/instagramMsg/static/img/3.png)
