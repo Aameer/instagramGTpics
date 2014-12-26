@@ -39,7 +39,3 @@ For fun
 -------
 Type in names of the places you always wanted to visit and see some awesome pics.
 
-Todo
-----
-To optimise results and to open distance around which users can locate the pictures
-
