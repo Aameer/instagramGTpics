@@ -1,15 +1,18 @@
-# Create your views here.
-from django.http import HttpResponse
-from django.shortcuts import render_to_response, redirect
-from django.template import RequestContext
 import json
 import ipdb
-from allauth.socialaccount.models import SocialToken
-from django.utils import simplejson
-import httplib2
 import urllib
-import ast
+import httplib2
+from django.utils import simplejson
+from django.http import HttpResponse
+from django.template import RequestContext
+from allauth.socialaccount.models import SocialToken
+from django.shortcuts import render_to_response, redirect
 
+"""
+check views for detail
+get_access_token generator(long, lat)
+get_location generator(long lat)
+"""
 def test(request):
 	return render_to_response('entry.html', {},
                               context_instance=RequestContext(request))
@@ -25,9 +28,7 @@ def get_access_token(request):
     print url_to_hit
     h = httplib2.Http()
     resp, content = h.request(url_to_hit)
-    content = content.replace('null','None')
-    content = content.replace('false','False').replace('true','True')
-    content=ast.literal_eval(content)
+    content=json.loads(content)
     #status code
     temp_dict = {}
     if (content['meta']['code']!= 400):
@@ -46,9 +47,7 @@ def get_location(request):
     print url_to_hit
     h = httplib2.Http()
     resp, content = h.request(url_to_hit)
-    content = content.replace('null','None')
-    content = content.replace('false','False').replace('true','True')
-    content=ast.literal_eval(content)
+    content=json.loads(content)
     #status code
     temp_dict = {}
     temp_dict2 = {}
@@ -63,9 +62,7 @@ def get_location(request):
 	print url_to_hit
     	h2 = httplib2.Http()
     	resp2, content2 = h2.request(url_to_hit)
-    	content2 = content2.replace('null','None')
-    	content2 = content2.replace('false','False').replace('true','True')
-    	content2=ast.literal_eval(content2)
+    	content2=json.loads(content2)
 
     	if (content2['meta']['code']!= 400):
 	   temp_list2 = content2['data']
