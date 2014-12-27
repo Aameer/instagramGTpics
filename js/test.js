@@ -1,5 +1,19 @@
 $( document ).ready(function(){
-    //on clear click remove all pics    
+    $(document).keypress(function(e) {
+        if(e.which == 13) {
+	   e.preventDefault()
+    	   $('.submit_form_loc').trigger('click');
+        }
+    });	
+    //$('document').keypress(function() {
+    //    var key = e.which;
+    //    alret(e.which);
+    //	//if (key == 13) {
+    //	//   // As ASCII code for ENTER key is "13"
+    //    //   $('.submit_form').submit(); 
+    //    //   //$('.submit_form').trigger('click'); // Submit form code
+    //	//}
+    //});
     $('.clear').click(function(){
 	var myNode = document.getElementById("image_container");
 	myNode.innerHTML = '';
